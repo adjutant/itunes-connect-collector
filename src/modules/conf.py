@@ -124,8 +124,7 @@ class LoadConfig():
         '''
 
         if len(keys) == 1:
-            for key in keys:
-                return self._mapping[key]
+            return self._mapping[keys]
 
         elif len(keys) > 1:
             results = []
